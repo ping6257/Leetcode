@@ -1,31 +1,4 @@
 ##自解~(12.7.2021) 
 
 
-```
-class Solution:
 
-    def addTwoNumbers(self, L1 ,L2):
-
-        def get_sum(L):
-            
-            L_length = len(L)
-            value = 0 
-            for x in range(L_length):
-            
-                value = value + L[x] *(10 **(x))
-            return value
-        
-        L1_sum = get_sum(L1)
-        print(L1_sum)
-        L2_sum = get_sum(L2)
-        
-        result_sum = str(L1_sum + L2_sum)
-        
-        final_list = []
-        
-        for i in result_sum[::-1]:
-            
-            final_list.append(i)
-        return final_list
-question = Solution()
-```
