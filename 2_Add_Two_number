@@ -1,6 +1,7 @@
 ##自解~(12.7.2021) 
-```
 
+
+```
 class Solution:
 
     def addTwoNumbers(self, L1 ,L2):
@@ -27,11 +28,4 @@ class Solution:
             final_list.append(i)
         return final_list
 question = Solution()
-
-l1 = [9,9,9,9,9,9,9]
-l2 = [9,9,9,9]
-
-answer =question.addTwoNumbers(l1,l2)
-
-
 ```
